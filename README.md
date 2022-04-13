@@ -1,10 +1,5 @@
 # flutter_native_hello
 
-title: Flutter中创建插件调用第三方的c库
-date: 2022-04-13 21:14
-description: 通过dart:ffi来实现，在Flutter中创建插件调用第三方的c库
-tags: [flutter]
----
 ## 前言
 Flutter可直接调用android .so，ios .a库，有时候这个库需要通过c代码封装再提供给dart调用。
 我们可通过dart:ffi来实现，在Flutter中创建插件调用第三方的c库。
