@@ -69,6 +69,7 @@ android {
 }
 ```
 * 目录结构如下：
+
 ![](https://lijmin.github.io/00_blogImg/img_blog18_01.jpeg)
 ### iOS加入libhello.a
 * 将libhello.a文件加入ios根目录
@@ -93,6 +94,7 @@ final Pointer<Int8> Function(Pointer<Int8>) getNativeTxt = nativeLib
     .asFunction();
 ```
 * 类型映射表
+
 ![](https://lijmin.github.io/00_blogImg/img_blog18_02.jpeg)
 
 * 在main.dart中调用函数getNativeTxt 
@@ -116,6 +118,7 @@ final Pointer<Int8> Function(Pointer<Int8>) getNativeTxt = nativeLib
     malloc.free(res);
 ```
 * 分别在ios、android上运行
+
 ![](https://lijmin.github.io/00_blogImg/img_blog18_03.png)
 ![](https://lijmin.github.io/00_blogImg/img_blog18_04.jpeg)
 
