@@ -1,0 +1,22 @@
+PODS:
+  - Flutter (1.0.0)
+  - native_hello (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - native_hello (from `.symlinks/plugins/native_hello/ios`)
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  native_hello:
+    :path: ".symlinks/plugins/native_hello/ios"
+
+SPEC CHECKSUMS:
+  Flutter: 50d75fe2f02b26cc09d224853bb45737f8b3214a
+  native_hello: 91d5c9ed326259a760a0f165c1d966cc10abc7f8
+
+PODFILE CHECKSUM: aafe91acc616949ddb318b77800a7f51bffa2a4c
+
+COCOAPODS: 1.11.2
